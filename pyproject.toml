@@ -1,0 +1,34 @@
+[project]
+name = "cc-exps"
+version = "0.1.0"
+description = "Claude Code experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # Core dependencies
+    "numpy>=1.24.0",
+    "datasets>=2.14.0",
+    # AWS Bedrock (for judge model and Claude via Bedrock)
+    "boto3>=1.28.0",
+    "botocore>=1.31.0",
+    "langchain-aws>=0.2.0",
+    # Claude Agent SDK (for claude_exp*.py scripts)
+    "claude-agent-sdk>=0.1.0",
+    # LangChain ecosystem (for deepagent_exp*.py scripts)
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-anthropic>=0.2.0",
+    "langgraph>=0.2.0",
+]
+
+[project.optional-dependencies]
+gemini = [
+    "langchain-google-genai>=2.0.0",
+]
+all = [
+    "langchain-google-genai>=2.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []
