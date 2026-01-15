@@ -1,6 +1,6 @@
 # Distilling Feedback into Memory-as-a-Tool
 
-Code for the paper "Distilling Feedback into Memory-as-a-Tool", to appear soon.
+Code for the paper "Distilling Feedback into Memory-as-a-Tool", https://arxiv.org/abs/2601.05960
 
 ## Overview
 
@@ -224,6 +224,22 @@ is generalization, not focusing on concrete examples.
 
 Be organized and methodical in your approach to use the memory effectively to
 achieve better feedback from the user over time.
+```
+
+## Citation
+
+If you find this work useful, please consider citing!
+
+```
+@misc{gallego2026distillingfeedbackmemoryasatool,
+      title={Distilling Feedback into Memory-as-a-Tool}, 
+      author={Víctor Gallego},
+      year={2026},
+      eprint={2601.05960},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.05960}, 
+}
 ```
 
 
